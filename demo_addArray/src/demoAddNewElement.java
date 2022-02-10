@@ -9,7 +9,7 @@ public class demoAddNewElement {
         }
         //B3: Gán phần tử cuối cùng bằng giá trị mới
         a1[a1.length-1] = 34;
-        //Gán lại tham chiếu cho a
+        //B4: Gán lại tham chiếu cho a
         a = a1;
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
